@@ -34,8 +34,11 @@ const CountDown: WeSingFC<Data> = props => {
         {dataSource.map((item, key) => {
           return (
             <View className='process-item' key={key}>
-              <View className='process-item__title'>{item.title}</View>
-              <View className='process-item__desc'>{item.desc}</View>
+              <View className='process-item-inner'>
+                <View className='process-item__bar'></View>
+                <View className='process-item__title'>{item.title}</View>
+                <View className='process-item__desc'>{item.desc}</View>
+              </View>
             </View>
           )
         })}

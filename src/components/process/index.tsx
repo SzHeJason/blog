@@ -1,19 +1,5 @@
 import Component, { Data } from './process'
 
-// type A = Material.ArrayDataSet | Material.MenuDataSet
-// type B = Material.DataSet
-// type AB = Exclude<B, A>
-
-// type C = Utils.DistributiveOmit<AB, 'key'>[]
-
-// const a: A
-
-// const b: B
-
-// const ab: AB
-
-// const c: C = [{t}]
-
 const config: Material.ConfigModel<Data> = {
   // 组件类型
   type: 'Process',
